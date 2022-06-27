@@ -2,6 +2,9 @@
   "name": "shimoju.org",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "build": "hexo generate && cp -R .cloudflare/* public"
+  },
   "hexo": {
     "version": "5.4.0"
   },
